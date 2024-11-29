@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: load.testing
+  data:
+    mongodb:
+      database: load_testing
+      host: localhost
+      port: 27017
+#      username:
+#      password:
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
